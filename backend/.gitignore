@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+ENV3/
+env3/
+*/activate_this.py
+
+# Flask
+instance/
+.webassets-cache
+
+# SQLite
+*.sqlite3
+*.db
+
+# Alembic (if any local files are generated that shouldn't be committed, though usually versions/ are)
+# migrations/versions/.DS_Store # Example for macOS users
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
